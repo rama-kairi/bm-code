@@ -1,11 +1,5 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/nex-gen-tech/bm-code/math"
-)
-
 func fullName(fname, lname string) string {
 	return fname + " " + lname
 }
@@ -106,8 +100,8 @@ func main() {
 
 	// fmt.Println(name)
 
-	nums := []int{1, 2, 3, 4, 5}
+	// nums := []int{1, 2, 3, 4, 5}
 
-	fmt.Println(math.Sum(nums...))
-	fmt.Println(math.Fib(10))
+	// fmt.Println(math.Sum(nums...))
+	// fmt.Println(math.Fib(10))
 }
